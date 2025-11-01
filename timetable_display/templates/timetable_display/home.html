@@ -1,0 +1,73 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>College Timetable</title>
+    <style>
+        body {
+            background-color: #f0f4ff;
+            font-family: "Segoe UI", sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            text-align: center;
+            background-color: #003399;
+            color: white;
+            padding: 20px 0;
+            box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+        }
+
+        header img {
+            width: 200px;
+            margin-bottom: 10px;
+        }
+
+        main {
+            text-align: center;
+            margin-top: 60px;
+        }
+
+        h1 {
+            color: #003399;
+            font-size: 32px;
+            margin-bottom: 10px;
+        }
+
+        h3 {
+            color: #444;
+            font-weight: 500;
+        }
+
+        footer {
+            text-align: center;
+            margin-top: 80px;
+            padding: 15px 0;
+            background-color: #003399;
+            color: white;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <img src="{% static 'saveetha logo.png' %}" alt="Saveetha Engineering College Logo">
+        <h2>Saveetha Engineering College</h2>
+        <h4>(Autonomous Institution Affiliated to Anna University)</h4>
+    </header>
+
+    <main>
+        <h1>Welcome to the College Timetable Page</h1>
+        <h3>View and manage class schedules easily</h3>
+    </main>
+
+    <footer>
+        &copy; 2025 Saveetha Engineering College | All Rights Reserved
+    </footer>
+
+</body>
+</html>
